@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "images/{name}",
+      "connection": "recoblob_STORAGE"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "descriptions",
+      "databaseName": "recodb",
+      "collectionName": "MyCollection",
+      "createIfNotExists": true,
+      "connectionStringSetting": "recodb_DOCUMENTDB",
+      "partitionKey": "id"
+    }
+  ]
+}

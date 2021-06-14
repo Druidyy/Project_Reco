@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "recoblob_STORAGE": "DefaultEndpointsProtocol=https;AccountName=recoblob;AccountKey=wamCpg0Kus/z4scSQMiJCJ5Wa4LwxlahBu/ipxAXSpr/NGS5x7qRNw6DLDD3PQC5L1KTL2SPB3HvYBoMSIfNxA==;EndpointSuffix=core.windows.net",
+    "ACCOUNT_KEY": "29681eb3426a45489682878cabc8f04f",
+    "recodb_DOCUMENTDB": "AccountEndpoint=https://recodb.documents.azure.com:443/;AccountKey=MweeVSjGxuASFJ8orDBCwT04Usel2gsvmQEYWthXoKXDXo2bO717P0nWxj3iKRegzzguDjy8Dfkx7D2p999AJw==;"
+  }
+}
